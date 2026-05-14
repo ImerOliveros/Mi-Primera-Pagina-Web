@@ -1,5 +1,13 @@
-# Esta es mi primera pagina web!
+# Mi progreso en Programación Web
 
-This is your README. READMEs are where you can communicate what your project is and how to use it.
+En este repositorio estaré compartiendo mis avances en el 
+aprendizaje de desarrollo web.
 
-Write your name on line 6, save it, and then head back to GitHub Desktop.
+
+# Tecnologías que estoy aprendiendo
+- HTML
+- CSS
+- JavaScript
+
+# Objetivo
+Documentar mi proceso de aprendizaje y mejorar mis habilidades en la creación de páginas web.
