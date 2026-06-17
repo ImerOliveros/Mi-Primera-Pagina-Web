@@ -1,92 +1,99 @@
-/* Reset básico */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
 }
 
-/* Fuente y fondo */
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f6f8;
-  color: #333;
-  line-height: 1.6;
-  padding: 20px;
+body{
+    background:#f4f6f9;
 }
 
-/* Contenedor general */
-main, header, footer {
-  max-width: 800px;
-  margin: auto;
+header{
+    background:#2563eb;
+    color:white;
+    padding:20px;
+    text-align:center;
 }
 
-/* Header */
-header {
-  text-align: center;
-  background: #1e293b;
-  color: white;
-  padding: 30px 20px;
-  border-radius: 10px;
-  margin-bottom: 20px;
+.container{
+    width:90%;
+    max-width:1000px;
+    margin:30px auto;
 }
 
-header h1 {
-  font-size: 2rem;
+.acciones{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:20px;
 }
 
-header h2 {
-  font-size: 1.2rem;
-  color: #94a3b8;
-  margin: 10px 0;
+button{
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+    cursor:pointer;
 }
 
-/* Secciones */
-section {
-  background: white;
-  padding: 20px;
-  margin-bottom: 15px;
-  border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+button:hover{
+    background:#1d4ed8;
 }
 
-section h2 {
-  margin-bottom: 10px;
-  color: #1e293b;
+input{
+    padding:10px;
+    width:250px;
+    border:1px solid #ccc;
+    border-radius:5px;
 }
 
-/* Listas */
-ul {
-  list-style: none;
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+    border-radius:10px;
+    overflow:hidden;
 }
 
-ul li {
-  padding: 5px 0;
-  border-bottom: 1px solid #eee;
+th{
+    background:#2563eb;
+    color:white;
+    padding:15px;
 }
 
-/* Footer */
-footer {
-  background: #1e293b;
-  color: white;
-  padding: 20px;
-  border-radius: 10px;
-  text-align: center;
+td{
+    padding:15px;
+    text-align:center;
+    border-bottom:1px solid #ddd;
 }
 
-footer ul {
-  list-style: none;
+.abierto{
+    color:#2563eb;
+    font-weight:bold;
 }
 
-footer li {
-  margin: 5px 0;
+.proceso{
+    color:#eab308;
+    font-weight:bold;
 }
 
-/* Links */
-a {
-  color: #38bdf8;
-  text-decoration: none;
+.cerrado{
+    color:#22c55e;
+    font-weight:bold;
 }
 
-a:hover {
-  text-decoration: underline;
+.alta{
+    color:#ef4444;
+    font-weight:bold;
+}
+
+.media{
+    color:#f59e0b;
+    font-weight:bold;
+}
+
+.baja{
+    color:#22c55e;
+    font-weight:bold;
 }
