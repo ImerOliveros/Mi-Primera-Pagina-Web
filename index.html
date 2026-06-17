@@ -1,84 +1,62 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang='en'>
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Perfil - Imer Oliveros</title>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>Tarjeta de presentacion</title>
   <link rel='stylesheet' href='main.css'>
 </head>
-<body>
+<header>
+        <h1>Sistema de Tickets</h1>
+    </header>
 
-  <!-- Encabezado -->
-  <header>
-    <h1>Imer Oliveros</h1>
-    <h2>Estudiante de Sistemas Computacionales</h2>
-    <p>Con ganas de aprender y desarrollarme profesionalmente.</p>
-  </header>
+    <div class="container">
 
-  <!-- Contenido principal -->
-  <main>
+        <div class="acciones">
+            <button>+ Nuevo Ticket</button>
 
-    <section>
-      <h2>Introducción</h2>
-      <p>
-        Actualmente estudio la carrera de Sistemas Computacionales. 
-        Estoy cursando materias como Programación Web y Cálculo Diferencial, 
-        fortaleciendo mis habilidades técnicas y analíticas.
-      </p>
-    </section>
+            <input type="text" placeholder="Buscar ticket...">
+        </div>
 
-    <section>
-      <h2>Perfil Profesional</h2>
-      <p>
-        Soy una persona responsable y comprometida, con interés en el área tecnológica. 
-        Me enfoco en aprender constantemente y mejorar mis habilidades para aportar 
-        valor en un entorno profesional.
-      </p>
-    </section>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Usuario</th>
+                    <th>Asunto</th>
+                    <th>Prioridad</th>
+                    <th>Estado</th>
+                </tr>
+            </thead>
 
-    <section>
-      <h2>Habilidades Técnicas</h2>
-      <ul>
-        <li>Excel (nivel intermedio)</li>
-        <li>SQL Server</li>
-        <li>C#</li>
-      </ul>
-    </section>
+            <tbody>
+                <tr>
+                    <td>001</td>
+                    <td>Juan Pérez</td>
+                    <td>Error de acceso</td>
+                    <td><span class="alta">Alta</span></td>
+                    <td><span class="abierto">Abierto</span></td>
+                </tr>
 
-    <section>
-      <h2>Habilidades Personales</h2>
-      <ul>
-        <li>Puntualidad</li>
-        <li>Responsabilidad</li>
-        <li>Trabajo en equipo</li>
-      </ul>
-    </section>
+                <tr>
+                    <td>002</td>
+                    <td>María López</td>
+                    <td>Problema con impresora</td>
+                    <td><span class="media">Media</span></td>
+                    <td><span class="proceso">En Proceso</span></td>
+                </tr>
 
-    <section>
-      <h2>Logros</h2>
-      <ul>
-        <li>Avance constante en la carrera de Sistemas Computacionales</li>
-      </ul>
-    </section>
+                <tr>
+                    <td>003</td>
+                    <td>Carlos Ruiz</td>
+                    <td>Internet lento</td>
+                    <td><span class="baja">Baja</span></td>
+                    <td><span class="cerrado">Cerrado</span></td>
+                </tr>
+            </tbody>
+        </table>
 
-    <section>
-      <h2>Objetivo Profesional</h2>
-      <p>
-        Terminar mi carrera, seguir desarrollando mis habilidades y 
-        lograr integrarme a una empresa donde pueda crecer profesionalmente 
-        y aportar mis conocimientos.
-      </p>
-    </section>
-
-  </main>
-
-  <!-- Pie de página -->
-  <footer>
-    <h2>Contacto</h2>
-    <ul>
-      <li><a href"https://www.linkedin.com/in/imer-jose-oliveros-reyes-026126341/">Linkedin</a></li>
-    </ul>
-  </footer>
+    </div>
 
 </body>
 </html>
